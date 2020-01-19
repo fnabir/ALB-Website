@@ -1,13 +1,13 @@
 {
-  "name": "uza-creative-agency-html-template",
+  "name": "Asian Lift Bangladesh",
   "version": "1.0.0",
-  "description": "Uza Creative Agency HTML Template",
+  "description": "Asian Lift Bangladesh",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
   },
-  "author": "colorlib",
-  "license": "CC-BY-3.0",
+  "author": "Asian Lift Bangladesh",
+  "license": "CC-BY-1.0",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1"
