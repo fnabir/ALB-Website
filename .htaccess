@@ -39,6 +39,33 @@ Header set Cache-Control "public, max-age=160704000"
 Header set Cache-Control "public, max-age=172800"
 </FilesMatch>
 
+## LEVERAGE BROWSER CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 month"
+ExpiresByType image/jpeg "access 1 month"
+ExpiresByType image/gif "access 1 month"
+ExpiresByType image/png "access 1 month"
+ExpiresDefault "access 30 days"
+</IfModule>
+ 
+## Fonts caching for a year
+<FilesMatch "\.(eot|svg|ttf|woff)$">
+Header set Cache-Control "max-age=29030400, public"
+</FilesMatch>
+ 
+## Cache Icon, PDF and Flash movie for a year
+<FilesMatch "\.(ico|pdf|flv|swf)$">
+Header set Cache-Control "max-age=29030400, public"
+</FilesMatch>
+ 
+## Cache CSS and JS for 1 week
+<FilesMatch "\.(xml|txt|css|js)$">
+Header set Cache-Control "max-age=604800, proxy-revalidate"
+</FilesMatch>
+ 
+## LEVERAGE BROWSER CACHING ##
+
 //Password Protect file
 <Files /projects/details/1>
 AuthName "Prompt"
