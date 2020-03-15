@@ -142,20 +142,15 @@
 .shade-1{
 	width:100%;
 	height:15px;
-	background: #d6cbE5;
+	background: #AD98C8;
 }
 .shade-2{
 	width:100%;
 	height:15px;
-	background: #A693BF;
-}
-.shade-3{
-	width:100%;
-	height:15px;
-	background: #8565a6;
+	background: #8A67AA;
 }
 .footer{
-	background: #5D3B8C
+	background: #663A8F
 }
 .footer .pro_border {
 	padding-top: 70px;
