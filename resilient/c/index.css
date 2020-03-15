@@ -142,12 +142,17 @@
 .shade-1{
 	width:100%;
 	height:15px;
-	background: #CFBADF;
+	background: #d6cbE5;
 }
 .shade-2{
 	width:100%;
 	height:15px;
-	background: #A075BF;
+	background: #A693BF;
+}
+.shade-3{
+	width:100%;
+	height:15px;
+	background: #8565a6;
 }
 .footer{
 	background: #5D3B8C
