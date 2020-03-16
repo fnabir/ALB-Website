@@ -185,7 +185,7 @@ input {
     border-color: #007bb5;
 }
 .contact-form{
-	background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,0.7)),url("../i/cover/03.jpg");
+	background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,0.7)),url("../i/cover/contact.webp");
 	width: 100%;
 	background-attachment:fixed;
 	padding-top: 70px;
