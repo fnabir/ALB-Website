@@ -201,16 +201,13 @@ input {
 }
 .contact-form .title span{
 	color:#663A8F;
+	border-bottom:3px solid #fff;
 }
 .contact-form .info{
 	color:white;
 	background:#6638AF;
 	padding: 169.5px 80px;
 	margin:15px 0;
-}
-.contact-form .info i{
-	color:#fff;
-	font-size:18px;
 }
 .contact-form .info h3{
 	font-size:22px;
@@ -493,6 +490,7 @@ textarea:-ms-input-placeholder { color: #AD98C8;}
 }
 .footer .footer_top .footer_widget .newsletter_form input:focus {
   outline: none;
+  border:2px solid #fff;
 }
 .footer .footer_top .footer_widget .newsletter_form button {
   position: absolute;
@@ -509,7 +507,9 @@ textarea:-ms-input-placeholder { color: #AD98C8;}
   top: 5px;
   right: 5px;
   font-size: 16px;
-  font-weight: 500;
+}
+.footer .footer_top .footer_widget .newsletter_form button:hover {
+	background-color:#fff;
 }
 .footer .footer_top .footer_widget .newsletter_text {
   font-size: 14px;
