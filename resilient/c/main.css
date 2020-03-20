@@ -291,7 +291,7 @@ ul li{
 	.footer .footer_top .footer_widget ul {
 		text-align:center
 	}
-		.footer .socail_links {
+	.footer .socail_links {
 		margin-top: 20px;
 		justify-content:center;
 		display:flex;
@@ -338,7 +338,7 @@ ul li{
 	border-radius: 50%;
 	line-height: 40px !important;
 	margin:4px 4px;
-	border: 1px solid #a6a6a6;
+	border: 1px solid #BDA0D9;
 }
 .footer .socail_links ul li a:hover{
 	color: #fff!important;
@@ -377,9 +377,15 @@ ul li{
 .footer .copy-right_text .copy_right a {
 	color: #BDA0D9;text-decoration:none;
 }
+.footer .copy-right_text .copy_right a:hover {
+	color: #fff;
+}
 @media (max-width: 374px) {
 	.footer .copy-right_text .copy_right {
 		font-size:12px;
+	}
+	.footer .copy-right_text .copy_right a {
+		font-size: 14px;
 	}
 }
 .footer .footer_top .footer_widget .newsletter_form {
