@@ -172,7 +172,7 @@
   padding: 0;
 }
 .slicknav_icon-bar {
-	background: #2699fb !important;
+	background: #fff !important;
 }
 .slicknav_nav {
 	background: #fff;
@@ -183,7 +183,7 @@
 	border-bottom: 1px solid #eee;
 }
 .slicknav_nav a:hover {
-	background: #1583e9 none repeat scroll 0 0;
+	background: #6638AF none repeat scroll 0 0;
 	border-radius: 0;
 	color: #ffffff;
 }
