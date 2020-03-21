@@ -135,3 +135,45 @@ input {
     color: #fff;
 	font-size: 80px;
 }
+@media only screen and (max-width: 767px) {
+	.number .counter{
+	background:#663A8F;
+	text-align: center;
+    padding:40px 30px;
+	margin: 40px 40px;
+}
+	.number .counter.logo{
+	background:#663A8F;
+	text-align: center;
+	padding-bottom: 50px;
+	margin: 0 30px;
+}
+	.counter-count
+{
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+	font-weight: 800;
+	margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+	.count-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+	line-height: 34px;
+	color: #fff;
+	font-weight: 500;
+}
+.count-text span{
+    font-size: 24px;
+	font-weight: 800;
+}
+.counter i{
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+	font-size: 40px;
+}
+}
