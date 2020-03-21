@@ -1,5 +1,11 @@
 (function ($) {
 "use strict";
+	var rb_window = $(window);
+    rb_window.on('load', function () {
+        $('#preloader').fadeOut('300', function () {
+            $(this).remove();
+        });
+    });
 	$(window).on('scroll', function () {
 		window.setInterval( function(){
 			var scroll = $(window).scrollTop();
