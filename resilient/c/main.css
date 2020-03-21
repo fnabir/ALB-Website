@@ -500,7 +500,7 @@ ul li{
 	}
 }
 .contact-form{
-	background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,0.7)),url("../i/cover/contact.webp");
+	background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0.3)),url("../i/cover/contact.webp");
 	width: 100%;
 	background-attachment:fixed;
 	padding-top: 70px;
@@ -521,7 +521,7 @@ ul li{
 .contact-form .info{
 	color:white;
 	background:#6638AF;
-	padding: 142px 80px;
+	padding: 141px 80px;
 	margin:15px 0;
 }
 .contact-form .info h3{
