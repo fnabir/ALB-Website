@@ -1,4 +1,3 @@
-/*Spacing*/
 .mt-15 {margin-top: 15px; }
 .mt-30 {margin-top: 30px; }
 .mt-40 {margin-top: 40px; }
@@ -36,17 +35,17 @@ ul li{
 	justify-content: center;
 	border: 2px solid;
     border-radius: 30px;
-    color: #1583e9;
+    color: #663A8f;
     font-size: 20px;
     margin-top:40px;
 	margin-left: auto;
 	margin-right: auto;
-    padding: 12px 20px;
+    padding: 8px 15px;
     text-decoration: none;
     width: 200px;
 }
 .btn:hover{
-	background: #1583e9;
+	background: #663a8f;
 	color: #fff;
 }
 .slicknav_menu .slicknav_nav {

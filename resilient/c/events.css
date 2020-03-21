@@ -106,6 +106,8 @@
         color: #663A8F; 
 }
 .single-event .event-content .read-more-btn {
+	color: #663A8F;
+        font-size: 16px; 
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -114,9 +116,12 @@
       align-items: center;
 	text-decoration: none;
 }
+.single-event .event-content .read-more-btn:hover {
+	border-bottom: 1px solid #663a8f
+}
 .single-event .event-content .read-more-btn i {
         color: #663A8F;
-        font-size: 20px; 
+        font-size: 18px; 
 }
 .single-event:focus, .single-event:hover {
     -webkit-box-shadow: 0 6px 50px 8px rgba(40, 23, 56, 0.5);
