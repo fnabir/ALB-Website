@@ -566,6 +566,7 @@ textarea:-ms-input-placeholder { color: #AD98C8;}
 	border-radius:8px;
 	background:transparent;
 	padding: 20px 15px;
+	outline: none
 }
 .contact-form textarea{
 	color:white;
@@ -577,6 +578,7 @@ textarea:-ms-input-placeholder { color: #AD98C8;}
 	border-radius:8px;
 	background:transparent;
 	padding: 20px 15px;
+	outline: none
 }
 .contact-form button {
 	border:1px solid #fff;
@@ -590,6 +592,7 @@ textarea:-ms-input-placeholder { color: #AD98C8;}
 	width:47.5%;
 	min-width:180px;
     text-decoration: none;
+	outline: none
 }
 .contact-form button:hover {
     background: #fff;
