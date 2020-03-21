@@ -62,43 +62,73 @@
 .team button:hover {
     color: #663A8F;
 }
-.event-area{
-  	position: relative;
-  	z-index: 1;
+.social-button .circle{
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	width: 3rem;
+	height: 3rem;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: .125rem solid transparent;
+	padding: 0;
+	text-decoration: none;
+	text-align: center;
+	color: #fefefe;
+	font-size: 1.5rem;
+	line-height: 1.7em;
+	border-radius: 1.6875rem;
+	margin-top: 1.5rem;
 }
-.single-event {
-  	-webkit-transition-duration: 500ms;
-  	-o-transition-duration: 500ms;
-  	transition-duration: 500ms;
-  	box-shadow: 0 8px 22px 0 rgba(0, 0, 0, 0.1); 
+.social-button .circle.mail{
+    background: #663A8F;
 }
-.single-event .event-content {
-    position: relative;
-    z-index: 10;
-    padding: 40px;
-    background-color: #fefefe;
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms; 
+.social-button .circle.mail:hover,
+.social-button .circle.mail:focus{
+    color: #663A8F;
+    background: #fefefe;
+    border-color: #663A8F;
 }
-.single-event .event-content .event-date {
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #a6a6a6;
-    display: block;
-    margin-bottom: 10px; 
+.social-button .circle.facebook{
+    background: #3b5998;
 }
-.single-event .event-content .event-date span {
-        font-size: 36px;
-        color: #663A8F;
-        margin-right: 5px; 
-	font-weight: 600;
+.social-button .circle.facebook:hover,
+.social-button .circle.facebook:focus{
+    color: #3b5998;
+    background: #fefefe;
+    border-color: #3b5998;
 }
-.single-event .event-content .event-title {
-      font-size: 24px;
-      font-weight: 600;
-      margin-bottom: 15px;
-      display: block; 
+.social-button .circle.linkedin {
+    background: #007bb5;
 }
-.single-event .event-content .event-title:focus, .single-event .event-content .event-title:hover {
-        color: #663A8F; }
+.social-button .circle.linkedin:hover,
+.social-button .circle.linkedin:focus{
+    color: #007bb5;
+    background: #fefefe;
+    border-color: #007bb5;
+}
+.social-button .circle.whatsapp{
+    background: #25d366;
+}
+.social-button .circle.whatsapp:hover,
+.social-button .circle.whatsapp:focus{
+    color: #25d366;
+    background: #fefefe;
+    border-color: #25d366;
+}
+.google-maps{
+	position:relative;
+	z-index:1;
+	width:100%;
+	height:500px;
+	margin-bottom: 50px
+}
+@media only screen and (max-width:767px){
+	.google-maps{height:280px;
+	}
+}
+.google-maps iframe{
+	width:100%;
+	height:100%;
+	border:none;
+}
